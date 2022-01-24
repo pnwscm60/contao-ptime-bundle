@@ -1,0 +1,35 @@
+{
+    "name": "pnwscm60/contao-pbtime-bundle",
+    "type": "contao-bundle",
+    "description": "worktime extension for Contao",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Markus Schenker",
+            "homepage": "https://github.com/pnwscm60"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "contao/core-bundle": "^4.9"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0",
+        "friendsofphp/php-cs-fixer": "^2.12",
+        "phpunit/phpunit": "^5.7.26",
+        "symfony/phpunit-bridge": "^3.2"
+    },
+   "extra": {
+         "contao-manager-plugin": "Pnwscm60\\ContaoPbtimeBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pnwscm60\\ContaoPtimeBundle\\": "src/"
+        }
+    },
+  "support": {
+        "issues": "https://github.com/pnwscm60/contao-ptime-bundle/issues",
+        "source": "https://github.com/pnwscm60/contao-ptime-bundle"
+    }
+   
+}
