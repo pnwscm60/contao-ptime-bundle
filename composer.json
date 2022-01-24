@@ -30,6 +30,10 @@
   "support": {
         "issues": "https://github.com/pnwscm60/contao-ptime-bundle/issues",
         "source": "https://github.com/pnwscm60/contao-ptime-bundle"
+    },
+   "scripts": {
+        "cs-fixer": [
+            "vendor/bin/ecs check src/ tests/ --fix --ansi"
+        ]
     }
-   
 }
