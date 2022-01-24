@@ -20,7 +20,7 @@
         "symfony/phpunit-bridge": "^3.2"
     },
    "extra": {
-         "contao-manager-plugin": "Pnwscm60\\ContaoPbtimeBundle\\ContaoManager\\Plugin"
+         "contao-manager-plugin": "Pnwscm60\\ContaoPtimeBundle\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
