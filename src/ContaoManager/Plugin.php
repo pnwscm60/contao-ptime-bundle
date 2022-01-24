@@ -4,7 +4,7 @@ use Contao\CoreBundle\ContaoCoreBundle;
 use Contao\ManagerPlugin\Bundle\BundlePluginInterface;
 use Contao\ManagerPlugin\Bundle\Config\BundleConfig;
 use Contao\ManagerPlugin\Bundle\Parser\ParserInterface;
-use Pnwscm60\ContaoPtimeBundle\ContaoHelloWorldBundle;
+use Pnwscm60\ContaoPtimeBundle\ContaoPtimeBundle;
 
 class Plugin implements BundlePluginInterface
 {
